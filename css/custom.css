@@ -1,3 +1,7 @@
-body{
-    background-color:bisque;
+.nav{
+    height:80px;
+}
+.navbar-default{
+background-color: #fafafa;
+    background-image: url("http://kamiljankowski.co.uk//images/lines.png");
 }
