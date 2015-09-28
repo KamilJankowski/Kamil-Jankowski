@@ -24,8 +24,9 @@ background-color: #fafafa;
  color:#5EBBF9;   
 }
 
-.navbar .navbar-header{
-   
+.navbar .container .navbar-collapse .navbar-left{
+  width:auto;
+    margin-left: 50px;
 }
 
 .navbar .navbar-header .navbar-brand{
