@@ -3,9 +3,7 @@ font-family: phagspa;
 src: url(../fonts/phagspa.ttf);
 }
 
-.nav{
-    height:80px;
-}
+
 .navbar-default{
 background-color: #fafafa;
     background-image: url("http://kamiljankowski.co.uk//images/lines.png");
@@ -27,12 +25,19 @@ background-color: #fafafa;
 }
 
 .navbar .navbar-header{
-    max-width: 350px;
+   
 }
 
- .navbar-header .logo-desc {
+.navbar .navbar-header .navbar-brand{
+ padding-left: 0px;
+margin:0;
+    min-height: 80px
+}
+
+ .navbar .navbar-header .navbar-brand .logo-desc {
     float: left;   
-     margin-left:110px;
      color: #FFA024;
-   
+     font-size:14px;
+     padding: 10px 0 0 50px;
+        
 }
