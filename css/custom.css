@@ -3,6 +3,19 @@ font-family: phagspa;
 src: url(../fonts/phagspa.ttf);
 }
 
+h1{
+   font-family: phagspa;
+}
+
+p{
+  font-family: phagspa;
+  color:#fefefe;
+}
+
+.navbar{
+ margin:0;
+ padding:0;
+}
 
 .navbar-default{
 background-color: #fafafa;
@@ -47,6 +60,11 @@ background-color: #424242;
     background-image: url("http://kamiljankowski.co.uk/images/lines.png");
     display: block;
     height: 707px;
-    margin-top: 0;
     width: 100%;
+}
+
+#about-me .container .page-header h1{
+ text-align: right;    
+ color: #f9f9f9;
+    font-size:22px;
 }
