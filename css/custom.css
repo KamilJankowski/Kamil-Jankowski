@@ -69,15 +69,16 @@ margin:0;
      padding: 10px 0 0 50px;
         
 }
-
-#technology{
+#about-me{
 width:100%;
 height:100%;
 background-color:#424242;
 display:block;
 background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+    margin-top:80px;
 }
 
+<<<<<<< HEAD
 #technology .under-navbar{
  width:100%;
  height:80px;
@@ -93,22 +94,27 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
 }
 
 #about-me{
+=======
+#technology{
+>>>>>>> parent of da7c8f6... full height and scroll to link
 width:100%;
 height:100%;
 background-color:#424242;
 display:block;
 background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+<<<<<<< HEAD
 position-relative;
 }
 
 #about-me .under-navbar{
  width:100%;
  height:80px;
+=======
+    margin-top:80px;
+>>>>>>> parent of da7c8f6... full height and scroll to link
 }
 
-
-
-#about-me .container .page-header h1, #technology .container .page-header h1{
+#about-me .container .page-header h1{
  text-align: right;    
  color: #f9f9f9;
     font-size:22px;
