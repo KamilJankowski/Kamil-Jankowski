@@ -95,6 +95,10 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
     height:200px;
 }
 
+.static .inner{
+ padding:5px 0px 0px 10px;   
+}
+
 #technology{
 width:100%;
 height:100%;
