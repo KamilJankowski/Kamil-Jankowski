@@ -82,21 +82,24 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
 
 .static{
     background: #71c6ff;
-    height:200px;
+    
 }
 
 .cms{
     background: #32abfb;
-    height:200px;
+  
 }
 
 .program{
     background: #0099ff;
-    height:200px;
+
 }
 
-.static .inner{
- padding:5px 0px 0px 10px;   
+.static .inner, .cms .inner, .program .inner{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top:1px;
+    padding-bottom: 20px;
 }
 
 #technology{
