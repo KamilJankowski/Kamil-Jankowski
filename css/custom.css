@@ -3,6 +3,16 @@ font-family: phagspa;
 src: url(../fonts/phagspa.ttf);
 }
 
+@media (max-width: @screen-xs) {
+    body{font-size: 8px;}
+    h3{font-size: 8px;}
+    p{font-size: 8px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 10px;}
+}
+
 h1{
    font-family: phagspa;
 }
@@ -16,6 +26,8 @@ p{
   font-family: phagspa;
   color:#fefefe;
 }
+
+
 
 
 .navbar{
@@ -82,25 +94,49 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
 
 .static{
     background: #71c6ff;
-    
-}
+  }
 
 .cms{
     background: #32abfb;
-  
 }
 
 .program{
     background: #0099ff;
-
 }
 
 .static .inner, .cms .inner, .program .inner{
     margin-left: 20px;
     margin-right: 20px;
-    padding-top:1px;
+    margin-top:20px;
     padding-bottom: 20px;
+    
 }
+
+#services .container .row .static .inner .box-header{
+width:100%; 
+height: 70px;
+  display: block;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin: 0;
+  
+
+}
+
+#services .container .row .static .inner .box-header h3 {
+width: 80%;
+    margin-top:10px;
+    float: left;
+    
+ 
+   
+}
+
+.static .inner .box-header img {
+ margin-top:15px;
+      float: left;
+    
+ }
 
 #technology{
 width:100%;
