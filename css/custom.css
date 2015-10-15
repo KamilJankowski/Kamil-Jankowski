@@ -202,10 +202,10 @@ margin: 0 auto;
 }
 
 .left{
-    background: none;
+    background-image: none;
 }
 
-.left:hover{
+.left:hover, .right:hover{
     background-image: none;
 }
 
