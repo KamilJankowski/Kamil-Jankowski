@@ -12,4 +12,6 @@ $('#about-me').css('height', $size);
 $('#contact').css('height', $size);
     
     
+
+    
 });
