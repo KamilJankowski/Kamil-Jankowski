@@ -27,7 +27,9 @@ p{
   color:#fefefe;
 }
 
-
+body{
+    position:relative;
+}
 
 
 .navbar{
@@ -77,6 +79,19 @@ margin:0;
      font-size:14px;
      padding: 10px 0 0 50px;
         
+}
+
+#portfolio{
+width:100%;
+height:100%;
+background-color:#424242;
+display:block;
+background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+}
+
+#portfolio .under-navbar{
+ width:100%;
+ height:80px;
 }
 
 #services{
@@ -166,7 +181,6 @@ height:100%;
 background-color:#424242;
 display:block;
 background-image: url("http://kamiljankowski.co.uk/images/lines.png");
-position-relative;
 }
 
 #about-me .under-navbar{
@@ -176,8 +190,27 @@ position-relative;
 
 
 
-#about-me .container .page-header h1, #technology .container .page-header h1 , #services .container .page-header h1{
+#portfolio .container .page-header h1, #about-me .container .page-header h1, #technology .container .page-header h1 , #services .container .page-header h1{
  text-align: right;    
  color: #f9f9f9;
     font-size:22px;
 }
+
+#carousel-example-generic {
+width: 100%; 
+height: 70%;
+margin: 0 auto;
+}
+
+.left, .right{
+    background-image: none !important;
+}
+
+.left:hover, .right:hover{
+    background-image: none;
+}
+
+.item{
+ margin: 0 auto;   
+}
+
