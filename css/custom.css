@@ -27,6 +27,36 @@ p{
   color:#fefefe;
 }
 
+label{
+display:inline-block;
+font-size:20px;
+color:#f9f9f9;
+float:left;
+font-weight:500;
+line-height:30px;
+
+}
+
+
+
+input{
+color:#515151;
+border:none;
+padding-left:10px;
+font-family: phagspa;
+margin-botom:50px; !important;
+
+}
+
+.btn-default{
+ background:#0099FF; 
+    float:right;
+    color:#f2f2f2;
+    font-weight: bold;
+    font-size:16px;
+    border:none;
+}
+
 body{
     position:relative;
 }
@@ -188,9 +218,49 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
  height:80px;
 }
 
+#about-me .photo{
+-webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
 
+#contact{
+width:100%;
+height:100%;
+background-color:#424242;
+display:block;
+background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+}
 
-#portfolio .container .page-header h1, #about-me .container .page-header h1, #technology .container .page-header h1 , #services .container .page-header h1{
+#contact .under-navbar{
+ width:100%;
+ height:80px;
+}
+
+#contact .container #contact-details {
+ width:100%;
+margin-bottom: 100px;
+}
+
+#contact .container #contact-details .first-col {
+width:50%;
+    float:left;
+    background:#0099FF;
+    line-height: 50px;
+     text-align: center;
+    margin-bottom: 5%;
+}
+
+#contact .container #contact-details .second-col {
+width:50%;
+    float:left;
+    background:#0099FF;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#portfolio .container .page-header h1, #about-me .container .page-header h1, #technology .container .page-header h1 , #services .container .page-header h1, #contact .container .page-header h1{
  text-align: right;    
  color: #f9f9f9;
     font-size:22px;
