@@ -1,17 +1,86 @@
+
+       @media (max-width:480px){
+        #portfolio .container .page-header .responsive-h1, 
+		#services .container .page-header .responsive-h1,
+		#technology .container .page-header .responsive-h1,
+		#about-me .container .page-header .responsive-h1,
+		#contact .container .page-header .responsive-h1{
+			 font-size:16px;
+             }
+			 
+			 #services .container .row .static .inner .box-header h3,  
+			 #services .container .row .cms .inner .box-header h3, 
+			 #services .container .row .program .inner .box-header h3{
+			 font-size:14px
+			 }
+			 
+			 h3{
+			 font-size:10px;
+			 }
+			p{
+			font-size:10px; 
+			 }
+        }
+          
+        @media (min-width:480px){
+             #portfolio .container .page-header .responsive-h1,
+				#services .container .page-header .responsive-h1,
+				#technology .container .page-header .responsive-h1,
+				#about-me .container .page-header .responsive-h1,
+				#contact .container .page-header .responsive-h1{
+                font-size:18px;
+            }
+			
+			h3{
+			font-size:16px;
+			}
+			
+			p{
+			font-size:12px; 
+			 }
+        }
+		
+		@media (min-width:768px){
+             #portfolio .container .page-header .responsive-h1,
+				#services .container .page-header .responsive-h1,
+				#technology .container .page-header .responsive-h1,
+				#about-me .container .page-header .responsive-h1,
+				#contact .container .page-header .responsive-h1{
+                font-size:20px;
+				
+            }
+			
+			h3{
+			font-size:18px;
+			}
+			p{
+			font-size:14px; 
+			 }
+        }
+		
+		@media (min-width:980px){
+             #portfolio .container .page-header .responsive-h1,
+				#services .container .page-header .responsive-h1,
+				#technology .container .page-header .responsive-h1,
+				#about-me .container .page-header .responsive-h1,
+				#contact .container .page-header .responsive-h1{
+                
+                font-size:22px;
+            }
+			
+			h3{
+			font-size:22px;
+			}
+			p{
+			font-size:14px; 
+			 }
+        }
+
 @font-face{
 font-family: phagspa;
 src: url(../fonts/phagspa.ttf);
 }
 
-@media (max-width: @screen-xs) {
-    body{font-size: 8px;}
-    h3{font-size: 8px;}
-    p{font-size: 8px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 10px;}
-}
 
 h1{
    font-family: phagspa;
@@ -59,6 +128,7 @@ margin-botom:50px; !important;
 
 body{
     position:relative;
+    
 }
 
 
@@ -130,6 +200,7 @@ height:100%;
 background-color:#424242;
 display:block;
 background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+
 }
 
 #services .under-navbar{
@@ -137,16 +208,20 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
  height:80px;
 }
 
-.static{
+#services .row .static{
     background: #71c6ff;
+	
   }
 
-.cms{
+#services .row .cms{
     background: #32abfb;
+	
 }
 
-.program{
+#services .row .program{
     background: #0099ff;
+	
+	
 }
 
 .static .inner, .cms .inner, .program .inner{
@@ -189,6 +264,7 @@ height:100%;
 background-color:#424242;
 display:block;
 background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+
 }
 
 #technology .under-navbar{
@@ -205,12 +281,21 @@ background-image: url("http://kamiljankowski.co.uk/images/lines.png");
     display: block;
 }
 
+#technology .container .technology-images1{
+margin-top:8%;
+margin-left:5%;
+display:block;
+margin-bottom:10%;
+
+}
+
 #about-me{
 width:100%;
 height:100%;
 background-color:#424242;
 display:block;
 background-image: url("http://kamiljankowski.co.uk/images/lines.png");
+
 }
 
 #about-me .under-navbar{
@@ -260,16 +345,24 @@ width:50%;
     margin-bottom: 5%;
 }
 
+#portfolio .container .page-header, #about-me .container .page-header, #technology .container .page-header, #services .container .page-header, #contact .container .page-header{
+float:left;
+
+width:100%;
+}
+
 #portfolio .container .page-header h1, #about-me .container .page-header h1, #technology .container .page-header h1 , #services .container .page-header h1, #contact .container .page-header h1{
  text-align: right;    
- color: #f9f9f9;
     font-size:22px;
+color:orange;
+	
 }
 
 #carousel-example-generic {
 width: 100%; 
 height: 70%;
 margin: 0 auto;
+float:left;
 }
 
 .left, .right{
